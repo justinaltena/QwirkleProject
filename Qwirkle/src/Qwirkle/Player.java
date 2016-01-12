@@ -11,7 +11,7 @@ public class Player {
 	}
 	
 	public void take(){
-		
+		hallo;
 	}
 	
 	public void place(){
