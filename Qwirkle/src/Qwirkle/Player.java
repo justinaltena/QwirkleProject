@@ -3,6 +3,7 @@ package Qwirkle;
 public class Player {
 
 	public Player(String name) {
+		test;
 	}
 	
 	public void makeMove(){
