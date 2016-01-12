@@ -7,7 +7,7 @@ public class Player {
 	}
 	
 	public void makeMove(){
-	
+	test345;
 	}
 	
 	public void take(){
