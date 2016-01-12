@@ -2,8 +2,37 @@ package Qwirkle;
 
 public class Board {
 
-	public Board() {
-		// TODO Auto-generated constructor stub
+	public Board() {	
+	}
+	
+	public void reset(){
+	}
+	
+	public void update(){
+	}
+	
+	public double setField(){
+		return 0;
+		
+	}
+	
+	public double getField(){
+		return 0;
+		
+	}
+	
+	public void deepCopy(){
+		
+	}
+	
+	public boolean isValidMove(){
+		return false;
+		
+	}
+	
+	public String toString(){
+		return null;
+		
 	}
 
 }
