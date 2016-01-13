@@ -11,7 +11,7 @@ public class Game {
     	
     }
     
-    private void play() {
+    private void play(){
     	
     }
 

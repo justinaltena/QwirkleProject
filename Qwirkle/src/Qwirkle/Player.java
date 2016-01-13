@@ -3,15 +3,15 @@ package Qwirkle;
 public class Player {
 
 	public Player(String name) {
-		test123;
+
 	}
 	
 	public void makeMove(){
-	test345;
+
 	}
 	
 	public void take(){
-		hallo;
+
 	}
 	
 	public void place(){
@@ -24,8 +24,7 @@ public class Player {
 	}
 	
 	public void addPoints(int newPoints){
-		
-		
+			
 	}
 			
 	
