@@ -1,4 +1,4 @@
-package Qwirkle;
+package client;
 
 import java.awt.List;
 

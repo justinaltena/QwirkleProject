@@ -1,4 +1,4 @@
-package Qwirkle;
+package client;
 
 public class Player {
 
