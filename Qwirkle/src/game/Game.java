@@ -1,6 +1,5 @@
-package Qwirkle;
+package game;
 
-import java.awt.List;
 
 public class Game {
 
@@ -11,7 +10,7 @@ public class Game {
     	
     }
     
-    private void play(){
+    private void play() {
     	
     }
 

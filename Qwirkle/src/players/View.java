@@ -1,4 +1,4 @@
-package Qwirkle;
+package players;
 
 public class View {
 
