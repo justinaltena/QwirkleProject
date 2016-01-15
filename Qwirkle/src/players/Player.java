@@ -1,9 +1,16 @@
-package Qwirkle;
+package players;
+
+import game.Board;
+import game.Stone;
 
 public class Player {
-
-	public Player(String name) {
-		test123;
+	private Board board;
+	private String name;
+	private Stone[] hand;
+	
+	public Player(Board board, String name) {
+		this.board = board;
+		this.name = name;
 	}
 	
 	public void makeMove(){
