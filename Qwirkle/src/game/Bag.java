@@ -31,12 +31,21 @@ public class Bag {
 			}
 		}
 	}
+	
+	public void resetBag() {
+		bag.clear();
+		createBag();
+	}
+	
+	
 
 	public Stone takeStone() {
-		Random rand  = new Random();
+		Stone resStone;
+		Random rand = new Random();
 		int value = rand.nextInt(bag.size()-1);
+		resStone = bag.get(value);
 		bag.remove(value);
-		return bag.get(value);
+		return resStone;
 
 	}
 	
@@ -44,16 +53,21 @@ public class Bag {
 		bag.add(stone);
 	}
 	
-	public void tradeStone(Stone[] stones) {
-		for(int i = 0; i < stones.length; i++) {
-			takeStone();
-			bag.add(stones[i]);
-		}
-
+	
+	public Stone tradeStone(Stone stone) {
+			Stone tradedStone = takeStone();
+			bag.add(stone);
+			return tradedStone;
 	}
-//	public static void main(String[] args) {
-//		Bag bag = new Bag();
-//		System.out.println(bag.takeStone().toString());
-//		
-//	}
+	
+	public int getSize() {
+		return bag.size();
+	}
+	
+	public static void main(String[] args) {
+		Bag bag = new Bag();
+		StringBuilder sb = new StringBuilder();
+		System.out.println(bag.takeStone().toString());
+		
+	}
 }

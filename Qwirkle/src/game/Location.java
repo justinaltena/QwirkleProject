@@ -21,5 +21,19 @@ public class Location {
 		String result = this.x + "," + this.y;
 		return result;
 	}
+	
+	public Location getLocation(String location) {
+		String[] locations = location.split(",");
+		return new Location(Integer.parseInt(locations[0]), Integer.parseInt(locations[1]));
+	}
+	
+	@Override
+	public String toString() {
+		return "" + x + "," + y;
+	}
+	
+	public boolean isEqual(Location location){
+		return (this.getX() == location.getX() && this.getY() == location.getY());
+	}
 
 }
